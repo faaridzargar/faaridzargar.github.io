@@ -160,6 +160,44 @@ body{
   margin: 0;
 }
 
+@media (max-width:786px){
+  .header{
+    align-content:flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .header-right{
+    align-content: flex-start;
+    justify-content: space-around;
+  }
+
+  .header-left{
+    align-content: flex-start;
+    justify-content: flex-start;
+    margin: 30px;
+  }
+
+  .main{
+    width: 100%;
+  }
+  .maineleft>h1{
+    text-align:center;
+    
+  }
+
+  .pics{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+  }
+
+  .captions{
+    display: none;
+  }
+}
+
 
 
 
