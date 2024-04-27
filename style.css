@@ -81,7 +81,13 @@ footer {
 .project-link:hover {
     text-decoration: underline;
 }
-
+li{
+    background-color: #D203FA;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 9px;
+    width: 90%;
+}
 /* Responsive CSS */
 @media only screen and (max-width: 768px) {
     .container {
@@ -112,4 +118,13 @@ footer {
     .listproj{
         margin-left: 29px;
     }
+    li{
+        background-color: #D203FA;
+        border-radius: 20px;
+        padding: 20px;
+        margin-bottom: 9px;
+        width: 90%
+    }
+
+    
 }
