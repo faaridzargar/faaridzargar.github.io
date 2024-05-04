@@ -71,11 +71,16 @@ footer {
 }
 
 .project-link {
-    display: block;
+    display: inline;
     text-decoration: none;
-    color:aquamarine;
+    color:#7fffd4;
     font-weight: bold;
-    margin-bottom: 5px;
+    font-size:12px ;
+    margin-bottom: 1px;
+    border:2px solid;
+    padding: 5px;
+    border-radius: 10px;
+    border-style:dotted;
 }
 
 .project-link:hover {
@@ -87,6 +92,11 @@ li{
     padding: 20px;
     margin-bottom: 9px;
     width: 90%;
+    font-family: "Montserrat";
+    letter-spacing: -0.7px;
+}
+#id2{
+    background-color: #d103fa95;
 }
 /* Responsive CSS */
 @media only screen and (max-width: 768px) {
