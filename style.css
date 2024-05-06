@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color:#333;
+    background-color:#242943;
     color: #fff;
     padding: 20px 0;
 }
@@ -67,7 +67,7 @@ footer {
 
 .listproj{
     padding: 20px;
-    margin-left: 130px;
+    margin-left: 125px;
 }
 
 .project-link {
@@ -94,10 +94,29 @@ li{
     width: 90%;
     font-family: "Montserrat";
     letter-spacing: -0.7px;
+    color: #fff;
 }
 #id2{
     background-color: #d103fa95;
 }
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff,#D203FA, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 /* Responsive CSS */
 @media only screen and (max-width: 768px) {
     .container {
