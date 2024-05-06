@@ -85,6 +85,7 @@ footer {
 
 .project-link:hover {
     text-decoration: underline;
+    color:white;
 }
 li{
     background-color: #D203FA;
@@ -98,6 +99,10 @@ li{
 }
 #id2{
     background-color: #d103fa95;
+}
+
+a:hover{
+    border-color:white;
 }
 
 .gradient-background {
