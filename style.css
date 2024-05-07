@@ -101,8 +101,15 @@ li{
     background-color: #d103fa95;
 }
 
+a{
+    text-decoration: none;
+}
 a:hover{
     border-color:white;
+}
+
+#canva {
+    color: aqua;
 }
 
 .gradient-background {
