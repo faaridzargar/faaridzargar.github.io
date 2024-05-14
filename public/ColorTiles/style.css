@@ -116,12 +116,18 @@ span:hover{
 
     .container{
         width: fit-content;
+        grid-template-columns: 70px 70px 70px;
+        grid-template-rows: 70px 70px 70px;
     }
-
     .choices{
-        display: inline-block;
+        display: inline;
         width: 100%;
         position: relative;
         height: 60px;
+        
+    }
+    .name{
+        font-size: 20px;
+        margin-left: -40px;
     }
 }
