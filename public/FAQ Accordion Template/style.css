@@ -1,0 +1,92 @@
+.container{
+    background-image: url(./assets/images/background-pattern-desktop.svg);
+    height: 35vh;
+    object-fit:fill;
+}
+
+body{
+    margin: 0;
+    background-color:hsl(275, 100%, 97%);
+}
+
+.frame{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    width: 80vh;
+    height: 60vh;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 2px 124px -50px rgb(132, 130, 130);
+    margin: 0;
+    overflow: hidden;
+    overflow-y:scroll;
+    display: inline;
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+  }
+h1{
+    display: inline;
+    font-family: "Work Sans",sans-serif;
+    font-size: 49px;
+    padding: 0 10px;
+    color: hsl(292, 42%, 14%);
+}
+
+.header{
+    padding: 20px 30px;
+}
+
+img{
+    height: 35px;
+    padding: 0 10px;
+}
+.list{
+    font-family: "work Sans",sans-serif;
+    font-weight: 700;
+    color: hsl(292, 42%, 14%);
+    padding: 15px 0;
+    margin-left: 12px;
+    display: inline-flex;
+    
+}
+
+p{
+    font-size: 16px;
+    width: 395px;
+}
+svg{
+    padding: 0 10px;
+    height: 48px;
+    margin-left: 19px;
+    
+}
+
+hr{
+    margin: 20px 0 0 0;
+}
+span{
+    font-family: "work Sans",sans-serif;
+    color: hsl(292, 16%, 49%);
+    margin-left: 12px;
+    font-size: 14px;
+    padding: 20px 0;
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+footer{
+    display: block;
+    text-align: center;
+    font-weight: light;
+    font-family: "work sans";
+}
