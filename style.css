@@ -67,7 +67,11 @@ footer {
 
 .listproj{
     padding: 20px;
-    margin-left: 125px;
+    margin-left: 165px;
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 350px 350px 350px;
+    gap: 60px;
 }
 
 .project-link {
@@ -91,11 +95,15 @@ li{
     background-color: #D203FA;
     border-radius: 20px;
     padding: 20px;
-    margin-bottom: 9px;
     width: 90%;
     font-family: "Montserrat";
     letter-spacing: -0.7px;
     color: #fff;
+}
+
+li:hover{
+    background: linear-gradient(180deg, #37323a,#D203FA, #ef8172);
+    animation: gradient-animation 5ms ease-in linear;
 }
 #id2{
     background-color: #d103fa95;
@@ -120,7 +128,7 @@ a:hover{
 
 .gradient-background-text {
     background: linear-gradient(300deg, #00bfff,#D203FA, #ef8172);
-    animation: gradient-animation 5s both infinite;
+    animation: gradient-animation 5s ease-in infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
@@ -167,6 +175,9 @@ a:hover{
 
     .listproj{
         margin-left: 0;
+        grid-template-columns: 300px;
+        grid-template-rows: auto;
+        gap: 30px;
     }
     li{
         background-color: #D203FA;
