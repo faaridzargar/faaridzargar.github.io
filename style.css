@@ -117,6 +117,15 @@ a:hover{
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
   }
+
+.gradient-background-text {
+    background: linear-gradient(300deg, #00bfff,#D203FA, #ef8172);
+    animation: gradient-animation 5s both infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 50px;
+  }
   
   @keyframes gradient-animation {
     0% {
@@ -157,7 +166,7 @@ a:hover{
     }
 
     .listproj{
-        margin-left: 29px;
+        margin-left: 0;
     }
     li{
         background-color: #D203FA;
