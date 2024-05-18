@@ -174,7 +174,7 @@ a:hover{
     }
 
     .listproj{
-        margin-left: 0;
+        margin-left: 19px;
         grid-template-columns: 300px;
         grid-template-rows: auto;
         gap: 30px;
