@@ -124,6 +124,8 @@ a:hover{
     background: linear-gradient(300deg, #00bfff,#D203FA, #ef8172);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
+    animation: fadeInAnimation ease-in-out 2s;
+    animation-fill-mode:forwards;
   }
 
 .gradient-background-text {
@@ -133,8 +135,19 @@ a:hover{
     -webkit-text-fill-color: transparent;
     text-align: center;
     font-size: 50px;
-  }
-  
+    animation: fadeInAnimation ease-in-out 0.8s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
   @keyframes gradient-animation {
     0% {
       background-position: 0% 50%;
