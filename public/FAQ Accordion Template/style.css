@@ -90,3 +90,14 @@ footer{
     font-weight: light;
     font-family: "work sans";
 }
+
+@media (max-width:400px){
+    p{
+        width: 235px;
+    }
+
+    .frame{
+        padding: 0px 10px;
+    }
+    
+}

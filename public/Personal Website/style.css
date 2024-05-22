@@ -223,7 +223,7 @@ a{
         transform: rotate(20deg);
         margin-left:0;
         background-color: #4757E6;
-        width: 70%;
+        width: 92%;
 
     }
     #info{
@@ -251,7 +251,14 @@ a{
     .footer{
         gap: 10px;
     }
-
+    img{
+        margin-left: 36px;
+    }
+    .square{
+        padding: 10px;
+        margin: 20px 36px;
+        width: 80%;
+    }
 }
 @keyframes mymove {
     50% {transform: rotate(25deg);}
