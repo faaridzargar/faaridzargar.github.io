@@ -99,12 +99,18 @@ li{
     font-family: "Montserrat";
     letter-spacing: -0.7px;
     color: #fff;
+    box-shadow: 5px 6px 18px -9px black;
 }
+
+
 
 li:hover{
     background: linear-gradient(180deg, #37323a,#D203FA, #ef8172);
+    box-shadow:5px 6px 22px -5px black;
+    padding:  21px 22px;
+    transition: .2s ease-in-out;
     animation: gradient-animation 5ms ease-in linear;
-}
+}s
 #id2{
     background-color: #d103fa95;
 }
@@ -157,6 +163,7 @@ a:hover{
     background: linear-gradient(300deg, #00bfff,#D203FA, #ef8172);
     animation: gradient-animation 5s ease-in infinite;
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
     font-size: 50px;
