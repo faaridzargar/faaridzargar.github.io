@@ -114,9 +114,13 @@ li:hover{
 #id2{
     background-color: #d103fa95;
 }
-.hide,.hide1,.hide2,.hide3,.hide4{
+.hide,.hide1,.hide2,.hide3,.hide4,.hidex{
     display: none;
 }
+#idx:hover+.hidex{
+    display: grid;
+}
+
 #id0:hover+.hide{
     display: grid;
 }
