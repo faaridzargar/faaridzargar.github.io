@@ -268,7 +268,6 @@ a:hover{
     }
     .skills-frame{
         animation: loop 15s linear infinite;
-        overflow: hidden;
     }
 
     header h1 {
