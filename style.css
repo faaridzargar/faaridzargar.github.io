@@ -102,6 +102,49 @@ li{
     box-shadow: 5px 6px 18px -9px black;
 }
 
+.skills{
+    display: flex;
+
+}
+
+.skills-frame{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+    padding: 40px;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+.skill{
+    width: 200px;
+    height: 100px;
+    background-color: #933636;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+.skill:hover{
+    background: linear-gradient(274deg, rgb(57, 0, 82), #00ffbf, #5f0050);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+
+}
+@keyframes loop {
+    0% {transform: translateX(0%);}
+    100% {transform: translateX(-90%);}
+    
+}
 
 
 li:hover{
@@ -165,13 +208,23 @@ a:hover{
 
 .gradient-background-text {
     background: linear-gradient(300deg, #00bfff,#D203FA, #ef8172);
-    animation: gradient-animation 5s ease-in infinite;
+    animation: gradient-animation 10s ease-in infinite;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
     font-size: 50px;
     animation: fadeInAnimation ease-in-out 0.8s;
+    animation-fill-mode:forwards;
+}
+.gradient-background-skills {
+    background: linear-gradient(274deg, #02fdd5, #9e4a4a, #4c73df);
+    animation: gradient-animation 1s ease-in linear;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 30px;
     animation-fill-mode:forwards;
 }
 
@@ -212,6 +265,10 @@ a:hover{
 
     header {
         padding: 10px 0;
+    }
+    .skills-frame{
+        animation: loop 15s linear infinite;
+        
     }
 
     header h1 {
