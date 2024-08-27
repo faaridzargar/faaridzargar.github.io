@@ -61,6 +61,19 @@ input::-moz-focus-inner {
 	padding: 0;
 }
 
+.gitcont {
+	padding: 20px;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: transform 0.2s ease-in-out;
+}
+.gitcont:hover{
+	transform: scale(1.1);
+	
+}
+
+
 input, select, textarea {
 	-moz-appearance: none;
 	-webkit-appearance: none;
