@@ -276,7 +276,16 @@ a:hover{
         padding: 10px 0;
     }
     .skills-frame{
-        animation: loop 15s linear infinite;
+       width: auto;
+       overflow: hidden;
+       gap:5px;
+    }
+
+    .skills{
+        width: 100%;
+    }
+    .skill{
+        font-size: 12px;
     }
 
     header h1 {
